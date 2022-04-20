@@ -1,7 +1,6 @@
 const randomUserAPI = "https://randomuser.me/api";
 
 const fetchBtn = document.querySelector("#fetch");
-const mainDiv = document.querySelector(".section-1");
 const outputDiv = document.querySelector(".outputDiv");
 const usrImg = document.querySelector(".usrImg");
 const usrEmail = document.querySelector(".usrEmail");
