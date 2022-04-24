@@ -1,0 +1,20 @@
+{
+  "name": "ex_7",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build src/index.js",
+    "format": "prettier --write  \"src/**/*.{js,jsx}\""
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "prettier": "^2.4.1"
+  }
+}
