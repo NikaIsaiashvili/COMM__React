@@ -1,0 +1,22 @@
+{
+  "name": "ex_9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build src/index.js",
+    "format": "prettier --write  \"src/**/*.{js,jsx}\""
+  },
+  "author": "N.Isaiashvili",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "parcel": "^2.5.0",
+    "prettier": "^2.6.2"
+  }
+}
