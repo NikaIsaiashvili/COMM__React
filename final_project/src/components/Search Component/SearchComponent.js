@@ -1,4 +1,4 @@
-import styles from "./Search.module.css";
+import * as styles from "./Search.module.css";
 import { useState } from "react";
 import Card from "../cards/Cards";
 import axios from "axios";

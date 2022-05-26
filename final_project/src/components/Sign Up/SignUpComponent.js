@@ -1,4 +1,4 @@
-import styles from "./SignUp.module.css";
+import * as styles from "./SignUp.module.css";
 import { useState } from "react";
 import { CreateUser } from "../../https/CreateUser";
 import { useNavigate } from "react-router-dom";
@@ -34,7 +34,7 @@ function SignUpComponent() {
   }
 
   return (
-    <section className={styles.SectionSignUp}>
+    <section>
       <div className={styles.SignUpContainer}>
         <form>
           <h1 className={styles.SignUpText}>Sign Up</h1>

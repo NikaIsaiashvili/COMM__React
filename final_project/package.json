@@ -2,10 +2,10 @@
   "name": "final_project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
     "dev": "parcel public/index.html",
-    "build": "parcel build src/index.js",
+    "build": "parcel build public/index.html",
     "format": "prettier --write  \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.js\" ",
     "lint:fix": "eslint \"src/**/*.js\" --fix"

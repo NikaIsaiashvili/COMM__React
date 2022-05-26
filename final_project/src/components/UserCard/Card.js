@@ -1,4 +1,4 @@
-import styles from "./Card.module.css";
+import * as styles from "./Card.module.css";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Organisations from "../UserOrganisations/Organisation";
@@ -35,12 +35,12 @@ function Card() {
       <div className={styles.LeftSide}>
         <img src={user.avatar_url} alt="userAvatar"></img>
         <button className={styles.AddRemoveBtn}>Add/Remove Favourites</button>
-        <div className={styles.UserBio}>
+        
           <p>Name: {name} </p>
           <p>Bio: {user.bio}</p>
           <p>Repositories: {user.followers} </p>
           <p>Following: {user.following}</p>
-        </div>
+        
       </div>
       <div className={styles.UserOrganisations}>
         {orgs.map((org) => {

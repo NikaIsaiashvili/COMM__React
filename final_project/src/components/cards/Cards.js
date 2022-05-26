@@ -1,4 +1,4 @@
-import styles from "./Cards.module.css";
+import * as styles from "./Cards.module.css";
 import ROUTES from "../../config/routes";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
